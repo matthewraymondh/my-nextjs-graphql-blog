@@ -36,7 +36,7 @@ const FeaturedPosts = () => {
   }, [])
 
   const customLeftArrow = (
-    <div className="arrow-btn absolute left-0 cursor-pointer rounded-full bg-pink-600 py-3 text-center">
+    <div className="arrow-btn absolute left-0 cursor-pointer rounded-full bg-zinc-600 py-3 text-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-6 w-6 w-full text-white"
@@ -55,7 +55,7 @@ const FeaturedPosts = () => {
   )
 
   const customRightArrow = (
-    <div className="arrow-btn absolute right-0 cursor-pointer rounded-full bg-pink-600 py-3 text-center">
+    <div className="arrow-btn absolute right-0 cursor-pointer rounded-full bg-zinc-600 py-3 text-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-6 w-6 w-full text-white"

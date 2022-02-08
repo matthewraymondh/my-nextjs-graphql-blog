@@ -9,11 +9,11 @@ const Header = () => {
   }, [])
   return (
     <div className="container mx-auto mb-8 px-10">
-      <div className="inline-block w-full border-b border-violet-400 py-8">
+      <div className="inline-block w-full border-b border-zinc-400 py-8">
         <div className="block md:float-left">
           <Link href="/">
-            <span className="cursor-pointer text-4xl font-bold text-white">
-              Raymond's blog
+            <span className="cursor-pointer bg-gradient-to-r from-indigo-200 to-gray-600  bg-clip-text text-4xl font-bold text-transparent">
+              Matthew Raymond
             </span>
           </Link>
         </div>

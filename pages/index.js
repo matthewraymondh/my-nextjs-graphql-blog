@@ -25,7 +25,9 @@ export default function Home({ posts }) {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="mt-5 sm:mt-1">
+        <Footer />
+      </div>
     </div>
   )
 }

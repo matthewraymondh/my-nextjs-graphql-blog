@@ -28,7 +28,6 @@ const PostDetails = ({ post }) => {
           <AdjacentPosts slug={post.slug} createdAt={post.createdAt} />
           <CommentsForm slug={post.slug} />
           <Comments slug={post.slug} />
-          <Footer />
         </div>
         <div className="col-span-1 lg:col-span-4">
           <div className="relative top-8 lg:sticky">
@@ -39,6 +38,9 @@ const PostDetails = ({ post }) => {
             <Categories />
           </div>
         </div>
+      </div>
+      <div className="mt-5 sm:mt-1">
+        <Footer />
       </div>
     </div>
   )
